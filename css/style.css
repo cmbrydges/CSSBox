@@ -4,38 +4,48 @@
 body {
   background-color: #333;
   font-family: sans-serif;
-  font-size: 10px;
+  font-size: 16px;
 }
-
 .container {
-  margin: 0 auto;
   width: 420px;
+  position: absolute;
 }
-
 nav {
-  margin: 0 auto;
-  padding: 10px 0 15px 15px;
-  position: fixed;
-  width: 420px;
-}
-
-.restaurant-list {
-  padding-top: 50px;
-  padding: 15px;
-  width: 50%;
+  position: relative;
+  display:inline-block;
+  width: 75%;
+  background-color: black;
 }
 .location {
-  background-color: #DCDCDC;}
+  padding: 15px;
+  background-color: #DCDCDC;
+  border-bottom-style: solid;
+  border-bottom-color: #d3d3d3;
+  border-bottom-width: 2px;}
 .location:hover {
-  background-color: #A9A9A9;}
+  background-color: #C5C4C4;}
 }
 h1{
-  font-size: 75%;
-  font-weight:bold;
+  font-size: 1em;
+  font-weight: bold;
 }
 h3{
-  font-size: 70%;
+  font-size: .75em;
 }
-.arrow{
-  float: right;
+.restaurant-list{
+  float: left;
+}
+.arrow {
+ font-size: 10px;
+ float: right;
+ padding-top: 12px;
+ padding-bottom: 12px;
+}
+.content {
+ display: inline-block;
+ line-height: 115%;
+}
+.arrow-left {
+  font-size: 10px;
+  padding: 12px;
 }
