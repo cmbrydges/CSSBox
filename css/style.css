@@ -9,7 +9,7 @@ body {
 .container {
   width:375px;
   margin: 0 auto;
-  padding-top: 40px;
+  padding-top: 44px;
 }
 nav {
   position:fixed;
@@ -19,22 +19,22 @@ nav {
 }
 .location {
   padding:15px;
-  background-color:#DCDCDC;
+  background-color:#DBD9DB;
   border-bottom-style:solid;
   border-bottom-color:#A8A2A2;
-  border-bottom-width:2px;}
+  border-bottom-width:1px;}
 
 .location:hover {
-  background-color:#BCB9B9;
+  background-color:#ABA9AB;
 }
 
 h1{
-  font-size:1em;
+  font-size:16px;
   font-weight:bold;
 }
 
 h3{
-  font-size:.75em;
+  font-size:12px;
 }
 
 .arrow {
