@@ -9,47 +9,45 @@ body {
 .container {
   width:375px;
   margin: 0 auto;
-  padding-top: 44px;
+  padding-top:38px;
 }
 nav {
   position:fixed;
   width: 375px;
   top: 0;
-  background-color:black;
+  background-color:#000000;
 }
 .location {
   padding:15px;
   background-color:#DBD9DB;
-  border-bottom-style:solid;
-  border-bottom-color:#A8A2A2;
-  border-bottom-width:1px;}
-
+  border-bottom:solid #A8A2A2 1px;
+}
 .location:hover {
   background-color:#ABA9AB;
 }
 
 h1{
-  font-size:16px;
+  font-size:1em;
   font-weight:bold;
+  padding-bottom:8px;
 }
 
 h3{
-  font-size:12px;
+  font-size:.75em;
 }
 
 .arrow {
- font-size:10px;
+ font-size:.75em;
  float:right;
- padding-top:6px;
- padding-bottom:6px;
+ padding:6px;
 }
 
 .content {
  display:inline-block;
- line-height:120%;
+ line-height:1em;
 }
 
 .arrow-left {
-  font-size:10px;
+  font-size:.5em;
   padding:12px;
 }
